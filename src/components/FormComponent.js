@@ -1,3 +1,4 @@
+import './FormComponent.css'
 const FormComponent = ()=>{
     return(
         <div>
@@ -8,7 +9,7 @@ const FormComponent = ()=>{
                 </div>
                 <div className="form-control">
                     <label>จำนวนเงิน</label>
-                    <input type={Number} placeholder="ระบุจำนวนเงิน"/>
+                    <input type={Number} placeholder="+ รายรับ , - รายจ่าย"/>
                 </div>
                 <div>
                     <button type="submit">เพิ่มข้อมูล</button>
